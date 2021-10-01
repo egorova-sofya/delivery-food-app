@@ -20,6 +20,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -39,7 +40,7 @@ function Navbar() {
       <IconContext.Provider value={{ color: "#fff" }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to="/">
+            <NavLogo to="/" onClick={closeMobileMenu}>
               <NavIcon />
               Super Food
             </NavLogo>
@@ -52,12 +53,12 @@ function Navbar() {
               </NavItem>
 
               <NavItem>
-                <NavLink to="/services">Services</NavLink>
+                <NavLink to="/plans">Plans &amp; menu</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink to="/delivery-app">App</NavLink>
               </NavItem>
 
-              <NavItem>
-                <NavLink to="/roducts">Products</NavLink>
-              </NavItem>
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to="/sing-up">

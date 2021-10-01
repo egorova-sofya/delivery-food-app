@@ -5,8 +5,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Source Sans Pro, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
+
+body {
+  background-color: #212528;
+}
+
 `;
 
 export const Container = styled.div`
@@ -26,7 +31,7 @@ export const Container = styled.div`
 
 export const Button = styled.button`
   border-radius: 4px;
-  background: ${({ primary }) => (primary ? "#1b5e20" : "#4c8c4a")};
+  background: ${({ primary }) => (primary ? "#86c232" : "#61892F")};
   white-space: nowrap;
   padding: ${({ big }) => (big ? "12px 64px" : "10px 20px")};
   color: #fff;
@@ -38,7 +43,7 @@ export const Button = styled.button`
   &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    background: ${({ primary }) => (primary ? "#4c8c4a" : "#1b5e20")};
+    background: ${({ primary }) => (primary ? "#61892F" : "#86c232")};
   }
 
   @media screen and (max-width: 960px) {

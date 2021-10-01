@@ -4,7 +4,7 @@ import { Container } from "../../globalStyles";
 import { GiFruitBowl } from "react-icons/gi";
 
 export const Nav = styled.nav`
-  background: tomato;
+  background: #222629;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -67,13 +67,13 @@ export const NavMenu = styled.ul`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease;
-    background: green;
+    background: #222629;
   }
 `;
 
 export const NavItem = styled.li`
   height: 80px;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid transparent #85c132;
 
   &:hover {
     border-bottom: 2px solid lightcyan;
@@ -101,7 +101,7 @@ export const NavLink = styled(Link)`
     display: table;
     padding: 2rem;
     &:hover {
-      color: red;
+      color: #85c132;
       transition: all 0.3s ease;
     }
   }
