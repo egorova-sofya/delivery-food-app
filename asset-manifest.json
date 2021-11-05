@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/delivery-food-app/static/js/main.9c4a2c6a.chunk.js",
+    "main.js.map": "/delivery-food-app/static/js/main.9c4a2c6a.chunk.js.map",
+    "runtime-main.js": "/delivery-food-app/static/js/runtime-main.5ad33531.js",
+    "runtime-main.js.map": "/delivery-food-app/static/js/runtime-main.5ad33531.js.map",
+    "static/js/2.9183b004.chunk.js": "/delivery-food-app/static/js/2.9183b004.chunk.js",
+    "static/js/2.9183b004.chunk.js.map": "/delivery-food-app/static/js/2.9183b004.chunk.js.map",
+    "index.html": "/delivery-food-app/index.html",
+    "static/js/2.9183b004.chunk.js.LICENSE.txt": "/delivery-food-app/static/js/2.9183b004.chunk.js.LICENSE.txt",
+    "static/media/app.svg": "/delivery-food-app/static/media/app.71af81ba.svg",
+    "static/media/cooking.svg": "/delivery-food-app/static/media/cooking.7d44b019.svg",
+    "static/media/dahiana-waszaj.jpg": "/delivery-food-app/static/media/dahiana-waszaj.794d5586.jpg",
+    "static/media/delivery.svg": "/delivery-food-app/static/media/delivery.02014144.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ad33531.js",
+    "static/js/2.9183b004.chunk.js",
+    "static/js/main.9c4a2c6a.chunk.js"
+  ]
+}
